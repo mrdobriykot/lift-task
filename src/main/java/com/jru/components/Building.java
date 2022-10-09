@@ -1,3 +1,5 @@
+package com.jru.components;
+
 import com.jru.reader.BuildingPropertiesReader;
 
 import java.util.ArrayList;
@@ -34,5 +36,4 @@ public class Building {
     public List<Floor> getFloorList() {
         return floorList;
     }
-
 }

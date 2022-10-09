@@ -1,3 +1,5 @@
+package com.jru.components;
+
 import com.jru.reader.LiftPropertiesReader;
 
 import java.util.ArrayList;

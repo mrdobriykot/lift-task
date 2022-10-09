@@ -1,4 +1,7 @@
-import com.jru.reader.FloorPropertiesReader;
+package com.jru.components;
+
+import com.jru.components.Direction;
+import com.jru.components.Floor;
 
 import java.util.Random;
 

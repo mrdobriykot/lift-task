@@ -1,3 +1,6 @@
+package com.jru.components;
+
+import com.jru.components.Building;
 import com.jru.reader.FloorPropertiesReader;
 
 import java.util.ArrayList;
