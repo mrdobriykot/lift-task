@@ -4,6 +4,7 @@ import com.jru.reader.BuildingPropertiesReader;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Random;
 
 public class Building {
@@ -35,5 +36,14 @@ public class Building {
 
     public List<Floor> getFloorList() {
         return floorList;
+    }
+
+    public Optional<Floor> getFloorById(int id) {
+        for (Floor floor: floorList) {
+            if (floor.getFloorId() == id) {
+                return Optional.of(floor);
+            }
+        }
+        return Optional.empty();
     }
 }
